@@ -1,0 +1,26 @@
+{
+  "archive": "nfd-image.zip",
+  "entries": 4,
+  "errors": [
+    {
+      "code": "E_NAME_NOT_NFC",
+      "detail": "entry name is not NFC: 'chat_sessions/s1_files/f1_café photo.png'"
+    },
+    {
+      "code": "E_NAME_NOT_NFC",
+      "detail": "chat_sessions/s1.json: session JSON contains non-NFC strings"
+    }
+  ],
+  "format_version": 3,
+  "images": 1,
+  "messages": 2,
+  "ok": false,
+  "repairs": [
+    {
+      "code": "E_NAME_NOT_NFC",
+      "detail": "NFC-normalise 1 entry name(s)"
+    }
+  ],
+  "sessions": 1,
+  "warnings": []
+}

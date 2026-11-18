@@ -1,0 +1,21 @@
+{
+  "archive": "broken-tree.zip",
+  "entries": 4,
+  "errors": [
+    {
+      "code": "E_TREE_PARENT_ORDER",
+      "detail": "chat_sessions/s1.json: message 2 has parent 5 (parent must be smaller)"
+    },
+    {
+      "code": "E_TREE_ORPHAN",
+      "detail": "chat_sessions/s1.json: message 2 parent 5 missing"
+    }
+  ],
+  "format_version": 3,
+  "images": 1,
+  "messages": 2,
+  "ok": false,
+  "repairs": [],
+  "sessions": 1,
+  "warnings": []
+}

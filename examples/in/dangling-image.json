@@ -1,0 +1,21 @@
+{
+ "comment": "FILE.export_path points at an image that is not in the archive: content-level.",
+ "entries": [
+  {
+   "name": "manifest.json",
+   "text": "{\"export_format_version\": 3}"
+  },
+  {
+   "name": "chat_sessions/s1.json",
+   "text": "{\"id\": \"s1\", \"title\": \"Trip notes\", \"pinned\": false, \"current_message_id\": 2, \"inserted_at\": \"2026-11-11T02:33:23.270Z\", \"updated_at\": \"2026-11-11T02:33:23.270Z\", \"messages\": [{\"id\": 1, \"parent_id\": null, \"role\": \"USER\", \"status\": \"FINISHED\", \"thinking_enabled\": false, \"search_enabled\": false, \"accumulated_token_usage\": 12, \"inserted_at\": \"2026-11-11T02:33:23.270Z\", \"fragments\": [{\"type\": \"REQUEST\", \"content\": \"what is on this map?\"}]}, {\"id\": 2, \"parent_id\": 1, \"role\": \"ASSISTANT\", \"status\": \"FINISHED\", \"thinking_enabled\": false, \"search_enabled\": false, \"accumulated_token_usage\": 31, \"inserted_at\": \"2026-11-11T02:33:23.270Z\", \"fragments\": [{\"type\": \"RESPONSE\", \"content\": \"A trailhead.\"}, {\"type\": \"FILE\", \"files\": [{\"id\": \"f1\", \"file_name\": \"café photo.png\", \"file_size\": 68, \"token_usage\": null, \"export_path\": \"chat_sessions/s1_files/f1_missing.png\", \"is_image\": true, \"width\": 1, \"height\": 1}]}]}]}"
+  },
+  {
+   "name": "chat_session_index.json",
+   "text": "[{\"id\": \"s1\", \"title\": \"Trip notes\", \"pinned\": false, \"message_count\": 2, \"inserted_at\": \"2026-11-11T02:33:23.270Z\", \"updated_at\": \"2026-11-11T02:33:23.270Z\"}]"
+  },
+  {
+   "name": "chat_sessions/s1_files/f1_café photo.png",
+   "b64": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+  }
+ ]
+}

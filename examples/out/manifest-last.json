@@ -1,0 +1,22 @@
+{
+  "archive": "manifest-last.zip",
+  "entries": 4,
+  "errors": [
+    {
+      "code": "E_MANIFEST_NOT_FIRST",
+      "detail": "first entry is 'chat_sessions/s1.json'"
+    }
+  ],
+  "format_version": 3,
+  "images": 1,
+  "messages": 2,
+  "ok": false,
+  "repairs": [
+    {
+      "code": "E_MANIFEST_NOT_FIRST",
+      "detail": "move manifest.json to the first entry"
+    }
+  ],
+  "sessions": 1,
+  "warnings": []
+}

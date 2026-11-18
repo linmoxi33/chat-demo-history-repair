@@ -1,0 +1,22 @@
+{
+  "archive": "dangling-image.zip",
+  "entries": 4,
+  "errors": [
+    {
+      "code": "E_IMAGE_MISSING",
+      "detail": "chat_sessions/s1_files/f1_missing.png: referenced but absent"
+    }
+  ],
+  "format_version": 3,
+  "images": 1,
+  "messages": 2,
+  "ok": false,
+  "repairs": [],
+  "sessions": 1,
+  "warnings": [
+    {
+      "code": "W_IMAGE_ORPHAN",
+      "detail": "chat_sessions/s1_files/f1_café photo.png: present but not referenced"
+    }
+  ]
+}
